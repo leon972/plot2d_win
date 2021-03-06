@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <logicalFolder name="calculator"
+                       displayName="calculator"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>include/calculator/calculator.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="geom"
+                       displayName="geom"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>include/geom/geomdefs.h</itemPath>
+          <itemPath>include/geom/viewport2d.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="lwtk"
+                       displayName="lwtk"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>include/lwtk/action.h</itemPath>
+          <itemPath>include/lwtk/container.h</itemPath>
+          <itemPath>include/lwtk/control.h</itemPath>
+          <itemPath>include/lwtk/exception.h</itemPath>
+          <itemPath>include/lwtk/focusevt.h</itemPath>
+          <itemPath>include/lwtk/keys.h</itemPath>
+          <itemPath>include/lwtk/libhead.h</itemPath>
+          <itemPath>include/lwtk/lwtk.h</itemPath>
+          <itemPath>include/lwtk/lwtkdefs.h</itemPath>
+          <itemPath>include/lwtk/menu.h</itemPath>
+          <itemPath>include/lwtk/mouse.h</itemPath>
+          <itemPath>include/lwtk/paintevt.h</itemPath>
+          <itemPath>include/lwtk/panel.h</itemPath>
+          <itemPath>include/lwtk/widget.h</itemPath>
+          <itemPath>include/lwtk/window.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="lwtkwin32"
+                       displayName="lwtkwin32"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>include/lwtkwin32/lwtkwin32.h</itemPath>
+          <itemPath>include/lwtkwin32/wkeyinfo.h</itemPath>
+          <itemPath>include/lwtkwin32/wmouse.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="math"
+                       displayName="math"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>include/math/3dtransf.h</itemPath>
+          <itemPath>include/math/libmath.h</itemPath>
+          <itemPath>include/math/mathdefs.h</itemPath>
+          <itemPath>include/math/matrix.h</itemPath>
+          <itemPath>include/math/matrix2.h</itemPath>
+          <itemPath>include/math/mconsole.h</itemPath>
+          <itemPath>include/math/mexception.h</itemPath>
+          <itemPath>include/math/nmmatrix.h</itemPath>
+          <itemPath>include/math/nvector.h</itemPath>
+          <itemPath>include/math/quat.h</itemPath>
+          <itemPath>include/math/quat2.h</itemPath>
+          <itemPath>include/math/vectors.h</itemPath>
+          <itemPath>include/math/vectors2.h</itemPath>
+          <itemPath>include/math/vectors3.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="util"
+                       displayName="util"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>include/util/format.h</itemPath>
+          <itemPath>include/util/localedef.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="video"
+                       displayName="video"
+                       projectFiles="true"
+                       kind="SOURCE_LOGICAL_FOLDER">
+          <itemPath>include/video/font.h</itemPath>
+          <itemPath>include/video/graphics.h</itemPath>
+          <itemPath>include/video/video.h</itemPath>
+          <itemPath>include/video/video_exception.h</itemPath>
+          <itemPath>include/video/videodef.h</itemPath>
+        </logicalFolder>
+        <itemPath>include/cmd_line.h</itemPath>
+        <itemPath>include/functions.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>calculator.cpp</itemPath>
+      <itemPath>cmd_line.cpp</itemPath>
+      <itemPath>format.cpp</itemPath>
+      <itemPath>functions.cpp</itemPath>
+      <itemPath>localedef.cpp</itemPath>
+      <itemPath>plot.cpp</itemPath>
+      <itemPath>viewport2d.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>C:\projects\portfolio\plot</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../sdk/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/plot</output>
+          <linkerAddLib>
+            <pElem>../../lwtk/dist/Debug</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>lwtk</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>MinGW_QT|MinGW</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/graphic_plot</output>
+          <linkerAddLib>
+            <pElem>include</pElem>
+          </linkerAddLib>
+          <stripSymbols>true</stripSymbols>
+          <linkerLibItems>
+            <linkerLibFileItem>lwtk.dll</linkerLibFileItem>
+          </linkerLibItems>
+          <commandLine>-mwindows</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="CommandLineTest" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>MinGW_QT|MinGW</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>CMD_LINE_MODE</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/test</output>
+          <linkerAddLib>
+            <pElem>include</pElem>
+          </linkerAddLib>
+          <stripSymbols>true</stripSymbols>
+          <linkerLibItems>
+            <linkerLibFileItem>lwtk.dll</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

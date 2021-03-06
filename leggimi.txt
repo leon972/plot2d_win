@@ -1,0 +1,33 @@
+****************************************************************************
+
+Plot - ver. 1.0.0
+Programma per il disegno del grafico di funzioni matematiche in forma 
+esplicita (y=f(x)) ,polare o parametriche.
+Plot ha un interprete interno di espressioni matematiche che permette all'utente
+di digitare direttamente l'espressione della  funzione da disegnare 
+(esempio: (x+1)*sin(x/8)/cos(x) ).
+Può visualizzare fino a 4 funzioni contemporaneamente, e può essere usato in modo
+efficiente per risolvere in modo visuale equzioni e per determinare radici 
+approssimate.
+Usando il mouse è possibile traslare gli assi ed effettuare lo zoom.
+Non richiede installazione, per eseguire il programma fare doppio click su
+graphic_plot.exe
+
+Copyright (c) 2009-2011 by Leonardo Berti
+
+***************************************************************************************
+License:this is free software released under the GNU General Public License
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
+****************************************************************************
+
+
+
+
+
+
+
+
